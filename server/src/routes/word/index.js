@@ -11,7 +11,7 @@ WordRouter.route('/(:word)?').get( async (req, res) => {
     // console.log(queries)
     
     if(word !== "undefined" && word !== undefined){   // => 검색어(쿼리)가  있으면
-        console.log(queries)
+        // console.log(queries)
         try {   // async-await문을 쓸땐 try-catch문을 쓰는게 좋음
             // words = await Word.find({ r_des: {$in: [
             //     {$regex: "법규"},
